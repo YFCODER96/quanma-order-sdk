@@ -22,7 +22,7 @@ npm install quanma-order-sdk
 ## 快速开始
 
 ```ts
-import { QuanmaClient } from "quanma-sdk";
+import { QuanmaClient } from "quanma-order-sdk";
 
 const client = new QuanmaClient({
   devCode: "你的devCode",
@@ -75,7 +75,7 @@ client.stopTokenAutoRefresh();
 SDK 默认返回强类型（例如 `AccountInfo`、`ProductInfo`、`OrderInfo`）：
 
 ```ts
-import { QuanmaClient, type ProductInfo } from "quanma-sdk";
+import { QuanmaClient, type ProductInfo } from "quanma-order-sdk";
 
 const client = new QuanmaClient({
   devCode: "你的devCode",
