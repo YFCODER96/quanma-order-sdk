@@ -11,7 +11,7 @@
 ## 安装
 
 ```bash
-npm install quanma-sdk
+npm install quanma-order-sdk
 ```
 
 ## 示例
